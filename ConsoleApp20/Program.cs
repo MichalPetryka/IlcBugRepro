@@ -18,7 +18,7 @@ internal class Program
 }
 
 [MemoryDiagnoser]
-[SimpleJob(RuntimeMoniker.Net90)]
+//[SimpleJob(RuntimeMoniker.Net90)]
 [SimpleJob(RuntimeMoniker.NativeAot90)]
 public unsafe class Benchmark
 {
